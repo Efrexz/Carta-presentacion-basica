@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+ /*Generales*/
+
+img{
+    width: 100%;
+}
+
+/* Css del Nav */
+
+
+#nav-container {
+    width: 100%;
+    background: rgb(38, 37, 37);
+    padding: 1rem 4rem;
+}
+
+#nav-container img{
+    width: 5rem;
+    border-radius: 100%;
+    border: 0.2rem solid rgb(237, 234, 234);
+}
+
+/* Css Info De usuario */
+
+.info-Container-Total{
+    width: 100%;
+    position: relative;
+}
+
+.info-Container-Total .info-container{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);/*Esto lo que hace es en el eje y moverlo -50% ya que este inicia en el 50% para abajo y no queda centrado*/
+    display: flex;
+    padding-left: 4rem;
+}
+
+.info-Container-Total .info-container .foto-container img{
+    width: 20rem;
+    border-radius: 100%;
+}
+
+.info-Container-Total .info-container .info-text-container{
+    color: white;
+}
+.info-Container-Total .info-container .info-text-container h2{
+    font-size: 2.2rem;
+    margin-top: 2rem;
+}
+
+.info-Container-Total .info-container .info-text-container p {
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+.info-Container-Total .info-container .info-text-container span{
+    display: inline-block;
+    margin-bottom: 7rem;
+    font-size: 1.7rem;
+}
+
+

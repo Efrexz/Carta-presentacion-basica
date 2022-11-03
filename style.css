@@ -47,9 +47,10 @@ img{
 
 .info-Container-Total .info-container .info-text-container{
     color: white;
+    margin-left: 2.5rem;
 }
 .info-Container-Total .info-container .info-text-container h2{
-    font-size: 2.2rem;
+    font-size: 2.3rem;
     margin-top: 2rem;
 }
 
@@ -61,7 +62,52 @@ img{
 .info-Container-Total .info-container .info-text-container span{
     display: inline-block;
     margin-bottom: 7rem;
+    font-size: 2rem;
+}
+
+/* Css del Resumen y redes sociales*/
+
+.description-container{
+    padding: 3rem;
+    width: 100%;
+}
+
+.description-container p{
     font-size: 1.7rem;
+    margin-top: 3.5rem;
+    margin-bottom: 5rem;
+}
+
+.description-container .icons-container {
+    display: flex;
+    justify-content: center;
+}
+
+.description-container .icons-container .icon-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    width: 4.5rem;
+    background: red;
+    margin-left: 1rem;
+    border-radius: 0.5rem;
+}
+
+.description-container .icons-container #platzi{
+    background: rgb(20, 187, 104);
+}
+
+.description-container .icons-container #github{
+    background: rgb(27, 26, 26);
+}
+
+.description-container .icons-container #linkedin {
+    background: rgb(6, 40, 236);
+}
+
+.description-container .icons-container #twitter{
+    background: rgb(28, 158, 233);
 }
 
 

@@ -30,6 +30,8 @@ img{
 .info-Container-Total{
     width: 100%;
     position: relative;
+    display: flex;
+    justify-content: center;
 }
 
 .info-Container-Total .info-container{
@@ -37,17 +39,16 @@ img{
     top: 50%;
     transform: translateY(-50%);/*Esto lo que hace es en el eje y moverlo -50% ya que este inicia en el 50% para abajo y no queda centrado*/
     display: flex;
-    padding-left: 4rem;
 }
 
 .info-Container-Total .info-container .foto-container img{
     width: 20rem;
     border-radius: 100%;
+    margin-right: 4rem;
 }
 
 .info-Container-Total .info-container .info-text-container{
     color: white;
-    margin-left: 2.5rem;
 }
 .info-Container-Total .info-container .info-text-container h2{
     font-size: 2.3rem;
@@ -67,14 +68,16 @@ img{
 
 /* Css del Resumen y redes sociales*/
 
+main{
+    padding: 10rem;
+}
+
 .description-container{
-    padding: 3rem;
     width: 100%;
 }
 
 .description-container p{
     font-size: 1.7rem;
-    margin-top: 3.5rem;
     margin-bottom: 5rem;
 }
 
@@ -89,25 +92,24 @@ img{
     align-items: center;
     padding: 1rem;
     width: 4.5rem;
-    background: red;
     margin-left: 1rem;
     border-radius: 0.5rem;
 }
 
 .description-container .icons-container #platzi{
-    background: rgb(20, 187, 104);
+    background: #121f3d
 }
 
 .description-container .icons-container #github{
-    background: rgb(27, 26, 26);
+    background: #23272d
 }
 
 .description-container .icons-container #linkedin {
-    background: rgb(6, 40, 236);
+    background: #0077b0
 }
 
 .description-container .icons-container #twitter{
-    background: rgb(28, 158, 233);
+    background: #1da1f2
 }
 
 
